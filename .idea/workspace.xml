@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a2a6646-7704-4d66-b58a-198f54a7b310" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ClassNameTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -36,13 +39,115 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
+    "last_directory_selection": "/Users/akashkumarsamantray/Spam_Emails/SpamEmails/src/test/java/org/example",
     "onboarding.tips.debug.path": "/Users/akashkumarsamantray/Spam_Emails/SpamEmails/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SpamDetectorTest.testCalculateSpamProbabilityWithNoEmails">
+    <configuration name="SpamDetectorTest.testAddEmailBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpamEmails" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SpamDetectorTest" />
+      <option name="METHOD_NAME" value="testAddEmailBody" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpamDetectorTest.testCalculateSimilarityWithEmptyStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpamEmails" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SpamDetectorTest" />
+      <option name="METHOD_NAME" value="testCalculateSimilarityWithEmptyStrings" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpamDetectorTest.testCalculateSimilarityWithSameWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpamEmails" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SpamDetectorTest" />
+      <option name="METHOD_NAME" value="testCalculateSimilarityWithSameWords" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpamDetectorTest.testCalculateSimilarityWithSomeCommonWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpamEmails" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SpamDetectorTest" />
+      <option name="METHOD_NAME" value="testCalculateSimilarityWithSomeCommonWords" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpamDetectorTest.testCalculateSpamProbabilityWithNoEmails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpamEmails" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.SpamDetectorTest" />
+      <option name="METHOD_NAME" value="testCalculateSpamProbabilityWithNoEmails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpamDetectorTest.testCalculateSpamProbabilityWithNoEmails" />
+        <item itemvalue="JUnit.SpamDetectorTest.testAddEmailBody" />
+        <item itemvalue="JUnit.SpamDetectorTest.testCalculateSimilarityWithEmptyStrings" />
+        <item itemvalue="JUnit.SpamDetectorTest.testCalculateSimilarityWithSameWords" />
+        <item itemvalue="JUnit.SpamDetectorTest.testCalculateSimilarityWithSomeCommonWords" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

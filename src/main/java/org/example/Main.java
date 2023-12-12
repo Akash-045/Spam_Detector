@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 public class Main {
-    private static final List<String> emailBodies = new ArrayList<>();// List to store email bodies
+    public static final List<String> emailBodies = new ArrayList<>();// List to store email bodies
     private static final double SPAM_THRESHOLD = 0.5; // Threshold to determine if an email is spam
 
     /**
@@ -33,7 +33,7 @@ public class Main {
      *
      * @param emailBody The content of the email to be added.
      */
-    private static void addEmailBody(String emailBody) {
+    public static void addEmailBody(String emailBody) {
 
         emailBodies.add(emailBody);
     }
@@ -47,7 +47,7 @@ public class Main {
      * @param emailBody2 The second email body.
      * @return A double representing the similarity score (0 to 1).
      */
-    private static double calculateSimilarity(String emailBody1, String emailBody2) {
+    public static double calculateSimilarity(String emailBody1, String emailBody2) {
 
         Set<String> words1 = new HashSet<> (Arrays.asList(emailBody1.split(" ")));
         Set<String> words2 = new HashSet<>(Arrays.asList(emailBody2.split(" ")));
@@ -64,7 +64,7 @@ public class Main {
      * This method is crucial in the spam detection process as it ultimately decides which emails are
      * flagged as spam, demonstrating a basic approach to spam filtering.
      */
-    private static void calculateSpamProbability() {
+    public static void calculateSpamProbability() {
         for (int i = 0; i < emailBodies.size(); i++) {
             double totalSimilarity = 0.0;// Total similarity score
             for (int j = 0; j < emailBodies.size(); j++) {
